@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    margin: 0px;
+}
+
+li, a{
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none ;
+}
+header{
+    position: fixed;
+    display: block;
+    max-height: 13vh;
+    width: 100%;
+    background-color: rgb(14, 14, 126);
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    width: 10rem;
+    height: auto;
+    margin-left: 25px;
+}
+
+.links{
+    margin-right: 5vw;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding:  0px 10px;
+}
+
+.links li{
+    display: inline-block;
+    padding:  0px 2vw;
+}
+
+.links li a:hover{
+    transition: font-size 0.3s ease;
+}
+
+.links li a:hover{
+    font-size: 21px;
+}
+
+.kontakt, .zemniprace{
+    color: rgb(14, 14, 126);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 120px;
+}
+
+.listcon{
+    align-items: center;
+}
+.list{
+    color: rgb(14, 14, 126);
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+}
+
+footer{
+    background-color: rgb(14, 14, 126);
+    color: white;
+    height: 40px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+.copy{
+    padding-top: 0.5vw;
+    text-align: center;
+    font-size: small;
+}
+
+.traktorimg{
+    width: 100%;
+    height: auto;
+}
+
+.gridcont{
+    display: grid;
+    padding: 3vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+}
+
+.griditem{
+    background-color: rgb(14, 14, 126);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.gridtext{
+    padding: 2vw;
+}
+
+.nabizimesekce{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 14, 126);
+    font-size: large;
+    
+}
+
+.end{
+    background-color: rgb(14, 14, 126);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+}
+
+.mapa{
+    padding-bottom: 2vw;
+}
+
+.uvod{
+    background-image: url("dafuvod.png");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3vw;
+    padding-top: 150px;
+    
+}
+
+.uvodtext{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    padding-left: 4vw;
+    line-height: 2vw;
+    margin-top: 13vw;
+}
+
+.indexmain{
+    margin: 10vw;
+    margin-top: 30px;
+    padding: 1vw;
+    text-align: left;
+    color: rgb(14, 14, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.sketch{
+    width: 70%;
+    height: auto;
+}
+
+.gridindex{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    justify-items: center;
+}
+
+.space{
+    padding: 25px;
+}
+
+.range{
+    background-color: rgb(14, 14, 126);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    padding: 3vw;
+    margin: 5vw;
+    margin-top: 7vw;
+}
+
+.rangeit{
+    background-color: rgb(14, 14, 126);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    list-style: disc;
+    padding-bottom: 1vw;
+}
+
+.kontgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    padding: 5vw;
+    padding-top: 3vw;
+}
+
+.kontmid{
+    width: 70%;
+    height: auto;
+    padding: 8vw;
+}
