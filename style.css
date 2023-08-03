@@ -30,7 +30,9 @@ header{
 
 .logo{
     display: block;
-    width: 10rem;
+    width: 10%;
+    min-width: 100px;
+    max-width: 150px;
     height: auto;
     margin-left: 25px;
 }
