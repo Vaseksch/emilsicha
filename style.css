@@ -9,7 +9,7 @@ h1{
 }
 
 li, a{
-    font-family: 'Franklin Gothic Medium';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-decoration: none;
     font-weight: 500;
