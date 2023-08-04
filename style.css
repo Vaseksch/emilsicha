@@ -81,8 +81,14 @@ header{
 }
 .list{
     color: rgb(14, 14, 126);
-    @media (max-width:1081px) {
+    @media (max-width:300px) {
+        font-size: 10px;
+    }
+    @media (max-width:600px) {
         font-size: 14px;
+    }
+    @media (max-width:1081px) {
+        font-size: 20px;
     }
     @media (min-width:1082px) {
         font-size: 24px;
