@@ -81,16 +81,13 @@ header{
 }
 .list{
     color: rgb(14, 14, 126);
-    @media (max-width:300px) {
+    @media (min-width:0px) {
         font-size: 10px;
     }
-    @media (max-width:600px) {
+    @media (min-width:600px) {
         font-size: 14px;
     }
-    @media (max-width:1081px) {
-        font-size: 20px;
-    }
-    @media (min-width:1082px) {
+    @media (min-width:1080px) {
         font-size: 24px;
     }
     text-decoration: none;
