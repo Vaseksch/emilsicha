@@ -12,7 +12,6 @@ li, a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-decoration: none;
-    font-weight: 500;
     @media (min-height:0px) {
         font-size: 10px;
     }
