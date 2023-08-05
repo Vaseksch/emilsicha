@@ -30,7 +30,7 @@ li, a{
 header{
     position: fixed;
     display: block;
-    max-height: 13vh;
+    min-height: fit-content;
     width: 100%;
     background-color: rgb(14, 14, 126);
     color: white;
