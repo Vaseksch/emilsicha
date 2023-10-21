@@ -182,6 +182,24 @@ footer {
 
 .gridtext {
   padding: 2vw;
+  @media (min-width: 0px) {
+    font-size: 10px;
+  }
+  @media (min-width: 300px) {
+    font-size: 14px;
+  }
+  @media (min-width: 400px) {
+    font-size: 16px;
+  }
+  @media (min-width: 600px) {
+    font-size: 17px;
+  }
+  @media (min-width: 800px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1080px) {
+    font-size: 23px;
+  }
 }
 
 .nabizimesekce {
@@ -228,6 +246,24 @@ footer {
   color: rgb(14, 14, 126);
   font-family: "Montserrat", sans-serif;
   font-size: x-large;
+  @media (min-width: 0px) {
+    font-size: 10px;
+  }
+  @media (min-width: 300px) {
+    font-size: 14px;
+  }
+  @media (min-width: 400px) {
+    font-size: 16px;
+  }
+  @media (min-width: 600px) {
+    font-size: 17px;
+  }
+  @media (min-width: 800px) {
+    font-size: 19px;
+  }
+  @media (min-width: 1080px) {
+    font-size: 24px;
+  }
 }
 
 .sketch {
