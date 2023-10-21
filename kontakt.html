@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no"/>
-        <title>Emil Šícha - kontakt</title>
-        <link rel="icon" type="logo" href="logo1.png">
-        <link rel="stylesheet" href="style.css">
 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no" />
+    <title>Emil Šícha - kontakt</title>
+    <link rel="icon" type="logo" href="logo1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <body>
-        <section class="header">
-         <header>
+</head>
+
+<body>
+    <section class="header">
+        <header>
             <img class="logo" src="logo2.png" alt="logo">
             <nav>
-                <ul class="links">
-                    <li><a href="index.html">ÚVOD</a></li>
-                    <li><a href="zemniprace.html">ZEMNÍ PRÁCE</a></li>
-                    <li><a href="autodoprava.html">AUTODOPRAVA</a></li>
-                    <li><a href="kontakt.html">KONTAKT</a></li>
+                <ul class="topnav" id="myTopnav">
+                    <a href="index.html">ÚVOD</a>
+                    <a href="zemniprace.html">ZEMNÍ PRÁCE</a>
+                    <a href="autodoprava.html">AUTODOPRAVA</a>
+                    <a href="kontakt.html" class="active">KONTAKT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </ul>
             </nav>
-         </header>
-        </section>
-        <section class="kontakt">
-            <H1>KONTAKT</H1>
+        </header>
+    </section>
+    <section class="kontakt">
+        <H1>KONTAKT</H1>
 
-            <ul class="listcon">
-                <li class="list">Tel.: 602 326 577</li>
-                <li class="list">email: emil.sicha@volny.cz</li>
-                <li class="list">IČ: 43101984</li>
-                <li class="list">DIČ: CZ7101250068</li>
-                <li class="list">provozovna: K Rybníku1115, 252 62 Horoměřice</li>
-                <li class="list">sídlo firmy: Velvarská 10, 252 62 Horoměřice</li>
-            </ul>
-          <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8297.48788251482!2d14.342850578156474!3d50.13229275161517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bc1f398c00567%3A0xe4efa189090815f4!2zRW1pbCDFoMOtY2hhIC0gWmVtbsOtLCB2w71rb3BvdsOpIHByw6FjZSAvIEF1dG9kb3ByYXZhIC0ga29udGVqbmVyeSwgb2R2b3ogb2RwYWR1IGEgc3V0aSwgZG9wcmF2YSBww61za3UsIMWhdMSbcmt1!5e0!3m2!1scs!2scz!4v1690535721931!5m2!1scs!2scz" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </section>
+        <ul class="listcon">
+            <li class="list">Tel.: 602 326 577</li>
+            <li class="list">email: emil.sicha@volny.cz</li>
+            <li class="list">IČ: 43101984</li>
+            <li class="list">DIČ: CZ7101250068</li>
+            <li class="list">provozovna: K Rybníku1115, 252 62 Horoměřice</li>
+            <li class="list">sídlo firmy: Velvarská 10, 252 62 Horoměřice</li>
+        </ul>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8297.48788251482!2d14.342850578156474!3d50.13229275161517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bc1f398c00567%3A0xe4efa189090815f4!2zRW1pbCDFoMOtY2hhIC0gWmVtbsOtLCB2w71rb3BvdsOpIHByw6FjZSAvIEF1dG9kb3ByYXZhIC0ga29udGVqbmVyeSwgb2R2b3ogb2RwYWR1IGEgc3V0aSwgZG9wcmF2YSBww61za3UsIMWhdMSbcmt1!5e0!3m2!1scs!2scz!4v1690535721931!5m2!1scs!2scz"
+                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 
-        <footer>
-            <p class="copy">&copy; 2023 Emil Šícha - Zemní práce a autodoprava. Všechna práva vyhrazena.</p>
-        </footer>
+    <footer>
+        <p class="copy">&copy; 2023 Emil Šícha - Zemní práce a autodoprava. Všechna práva vyhrazena.</p>
+    </footer>
 
-    </body>
+</body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
 </html>

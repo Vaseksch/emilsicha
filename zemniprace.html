@@ -7,6 +7,7 @@
         <title>Emil Šícha</title>
         <link rel="icon" type="logo" href="logo1.png">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
 
@@ -15,11 +16,14 @@
          <header>
             <img class="logo" src="logo2.png" alt="logo">
             <nav>
-                <ul class="links">
-                    <li><a href="index.html">ÚVOD</a></li>
-                    <li><a href="zemniprace.html">ZEMNÍ PRÁCE</a></li>
-                    <li><a href="autodoprava.html">AUTODOPRAVA</a></li>
-                    <li><a href="kontakt.html">KONTAKT</a></li>
+                <ul class="topnav" id="myTopnav">
+                    <a href="index.html">ÚVOD</a>
+                    <a href="zemniprace.html" class="active">ZEMNÍ PRÁCE</a>
+                    <a href="autodoprava.html">AUTODOPRAVA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </ul>
             </nav>
          </header>
@@ -79,11 +83,17 @@
             
 
         </footer>
-        
-
-
-        
-        
-
     </body>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
 </html>
