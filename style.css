@@ -122,7 +122,10 @@ header {
   @media (min-width: 0px) {
     font-size: 8px;
   }
-  @media (min-width: 300px) {
+  @media (min-width: 150px) {
+    font-size: 10px;
+  }
+  @media (min-width: 350px) {
     font-size: 12px;
   }
   @media (min-width: 400px) {
