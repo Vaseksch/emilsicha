@@ -302,3 +302,12 @@ footer {
   margin-right: 50px;
   margin-top: 7vw;
 }
+
+.ERROR{
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(14, 14, 126);
+  padding-top: 150px;
+  padding-bottom: 300px;
+}

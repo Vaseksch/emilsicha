@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Emil Šícha</title>
+        <link rel="icon" type="logo" href="logo1.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+<body>
+    <section class="header">
+        <header>
+            <img class="logo" src="logo2.png" alt="logo">
+            <nav>
+                <ul class="topnav" id="myTopnav">
+                    <a href="index.html">ÚVOD</a>
+                    <a href="zemniprace.html">ZEMNÍ PRÁCE</a>
+                    <a href="autodoprava.html" class="active">AUTODOPRAVA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+    <div class="ERROR">
+        <H1>404 - Page not found</H1>
+        <h3>stránka nenalezena</h3>
+    </div>
+    <footer>
+
+        <section class="end">
+            <div>
+                <h2>Kontakt:</h2>
+                <p>tel.: 602 326 577</p>
+                <p>email: emil.sicha@volny.cz</p>
+            </div>
+            <div>
+                <p><p class="copy">&copy; 2023 Emil Šícha - Zemní práce a autodoprava. Všechna práva vyhrazena.</p></p>
+            </div>
+        </section>
+
+        
+
+    </footer>
+    
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>
