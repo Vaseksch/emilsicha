@@ -116,6 +116,9 @@ header {
 
 .listcon {
   align-items: center;
+  padding-left: 0px;
+  display: grid;
+  grid-column: auto;
 }
 .list {
   color: rgb(14, 14, 126);
@@ -142,7 +145,8 @@ header {
   }
   text-decoration: none;
   list-style: none;
-  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -262,13 +266,13 @@ footer {
     font-size: 16px;
   }
   @media (min-width: 400px) {
-    font-size: 18px;
+    font-size: 20px;
   }
   @media (min-width: 600px) {
-    font-size: 19px;
+    font-size: 21px;
   }
   @media (min-width: 800px) {
-    font-size: 21px;
+    font-size: 23px;
   }
   @media (min-width: 1080px) {
     font-size: 26px;
@@ -344,7 +348,7 @@ footer {
   }
   text-decoration: none;
   list-style: none;
-  margin-right: 50px;
+  text-align: center;
   margin-top: 7vw;
 }
 
